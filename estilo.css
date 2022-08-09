@@ -40,7 +40,7 @@ header a:hover{
     border-bottom: 1px solid darkgreen;
 }
 
-#conteudo-site{
+#conteudo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -55,11 +55,11 @@ header a:hover{
     border: 0px solid red;
 }
 
-.imagem-depoimento{
+.imagem2{
     margin-left: 20px;
 }
 
-#conteudo-lateral{
+#conteudo_lateral{
     width: 350px;
     left: 360px;
     position: relative;
