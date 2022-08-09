@@ -1,0 +1,233 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: url(Imagens_Ultilizadas/fundo.png);
+    width: 100%;
+    height: 200px;
+    border: 0px solid red;
+}
+
+header img{
+    border: 0px solid red;
+    left: 100px;
+    top: 35px;
+    position: relative;
+}
+
+header ul{
+    list-style-type: none;
+    width: 550px;
+    border: 0px solid red;
+    position: relative;
+    left: 780px;
+    top: 5px;
+   
+}
+
+header a{
+    padding: 5px;
+    text-decoration: none;
+    color: #ab7114;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+header a:hover{
+    color: darkgreen;
+    border-bottom: 1px solid darkgreen;
+}
+
+#conteudo-site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 70px;
+    border: 0px solid red;
+    height: 900px;
+}
+
+.imagens{
+    width: 1100px;
+    border: 0px solid red;
+}
+
+.imagem-depoimento{
+    margin-left: 20px;
+}
+
+#conteudo-lateral{
+    width: 350px;
+    left: 360px;
+    position: relative;
+    border: 0px solid red;
+    background-color: #ebe7dd
+}
+
+form h5{
+    color: #86521a;
+    display: inline;
+    border: 0px solid red
+}
+
+aside form{
+    padding: 10px;
+    background-color: #cdc8b1;
+    width: 330px;
+    height: 110px;
+    border: 0px solid red;
+}
+
+aside fieldset{
+    margin: 0px auto;
+    border: 0px;
+}
+
+aside fieldset legend{
+    margin-right: 20px;
+    font-weight: 800;
+    color: #86521a;
+    font-size: 13px;
+}
+
+#verificacao{
+    font-size: 14px;
+    background-color: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+    border: 0px solid red;
+}
+
+#galeria{
+    border: 0px solid red;
+    float:right;   
+    height: 400px; 
+}
+
+h4{
+    margin-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #86521a;
+}
+
+
+article#galeria a{
+    display: block;
+    border: 0px solid red;
+    background: url(Imagens_Ultilizadas/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 10px 30px;
+
+}
+
+article#galeria img{
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+#informacoes-museu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    right: 185px;
+    bottom: 545px;
+    width: 700px;
+    border: 0px solid red;
+}
+
+#historia-museu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    bottom: 535px;
+    right: 195px;
+    position: relative;
+    border: 0px solid red;
+    width: 700px;
+}
+
+article#exposicoes-museu{
+    width: 310px;
+    border: 0px solid red;
+}
+
+article#exposicoes-museu h4{
+    color:darkgreen;
+}
+
+article#exposicoes-museu ul a{
+    color: #ab7114;
+    text-decoration: none;
+}
+
+article#exposicoes-museu ul a:hover{
+    color: darkgreen;
+}
+
+article#sobre-museu{
+    width: 310px;
+    border: 0px solid red;
+}
+
+article#sobre-museu h4{
+    color: darkgreen;
+}
+
+article#sobre-museu p{
+    font-size: 14px;
+}
+
+article#sobre-museu a{
+    color: #86521a;
+    text-decoration: none;
+}
+
+article#sobre-museu a:hover{
+    color: darkgreen;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    border: 0px solid red;
+}
+
+footer ul{
+    border-top: 1px solid rgb(178, 156, 104);
+    padding: 10px;
+    list-style: none;
+}
+
+footer ul a{
+    color: #86521a;
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer h6 a{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #86521a;
+    text-decoration: none;
+}
+
+footer h6{
+    position: relative;
+    bottom: 55px;
+    font-size: 15px;
+    border: 0px solid red;
+}
